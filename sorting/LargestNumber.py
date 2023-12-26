@@ -10,4 +10,5 @@ class Solution:
                 nums[j - 1], nums[j] = nums[j], nums[j - 1]
                 j -= 1
             i += 1
+
         return str(int(''.join(map(str,nums))))
